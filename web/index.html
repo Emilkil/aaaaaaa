@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inicio</title>
+    <style>
+        header{
+            font-family: Fantasy;
+        }
+        
+        nav{
+            font-size: 60px;
+        }
+        body{
+            margin: 3;
+            background-color:#FFFFE0
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 15%;
+            background-color: #f1f1f1;
+            position: absolute;
+            left: 10px;
+            top: 300px;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 35px 55px;
+            text-decoration: none;
+        }
+
+        li a.active {
+            background-color: #337DFF;
+            color: black;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: rgb(22, 2, 70);
+        }
+
+        .contenedor1{
+            background-color:Orange;
+            height: 10vh;
+            margin: 5%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h2{
+            color:rgb(253, 6, 6);
+        }
+
+        p{
+            color:rgb(39, 3, 170);
+        }
+
+        article{
+            font-family: Century Gothic;
+        }
+        .contenedor2{
+            background-color: rgb(129, 117, 7);
+            position: absolute;
+            left: 550px;
+            top: 500px;
+            margin: 0;
+            padding: 0;
+            width: 45%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contenedor3{
+            background-color: rgb(72, 129, 7);
+            position: absolute;
+            left: 550px;
+            top: 1200px;
+            margin: 1;
+            padding: 0;
+            width: 45%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        aside{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .contenedor4{
+            background-color: rgb(7, 111, 129);
+            position: absolute;
+            left: 1500px;
+            top: 600px;
+            margin: 1;
+            padding: 0;
+            width: 20%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer{
+            position: absolute;
+            left: 795px;
+            top: 1900px;
+            font-size: 36px;
+            padding: 18;
+            background-color: aqua;
+        }
+
+        .fa-instagram {
+            background: #dc21e2;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+  </head>
+  <body>
+    <HEADER>
+        <div class="contenedor1">
+            <H1>Cinepolito</H1>
+            <p>Importancia de lo audiovisual y literario</p>
+        </div>
+    </HEADER>
+    <ul>
+        <li><a class="active" href="index.html">Inicio</a></li>
+        <li><a href="https://emiliolopezc.wordpress.com/" target="_blank">Ficcion</a></li>
+        <li><a href="https://www.instagram.com/invites/contact/?i=1nuxb9rqrxfnd&utm_content=5fib0yd" target="_blank">Red social</a></li>
+      </ul>
+    <SECTION> 
+       <article>
+        <div class="contenedor2">
+            <h2>Audiovisual</H2>
+            <p>El cine, empleado como fuente de información, permite adentrarse en el estudio de la sociedad, conocer culturas diferentes a la que puedas llegar a tener, formar visiones en torno a acontecimientos pasados, presentes y futuros. Pero tambien cuentan historias ficticias con personajes y situaciones con las que nos podemos identificar.</p>
+            <img src="http://www.ocendi.com/wp-content/themes/ocendi/style/post/2012/03/bovinas.jpg"/>
+        </div>
+       </article>
+       <article>
+        <div class="contenedor3">
+            <H2>Literatura</H2>
+            <p>Las obras literarias nos pueden ayudar a identificarnos, en cualquier ámbito. Cada obra literaria muestra una realidad oculta de la sociedad o <b>un mundo distinto al nuestro</b> pero con nuevas enseñanzas, lo importante es ver la lectura como algo que nosotros decidimos hacer y no como que alguien nos obliga a leer.</p>
+            <img src="https://definicion.de/wp-content/uploads/2011/06/obra-literaria.jpg">
+        </div>
+    </SECTION>
+    <ASIDE>
+        <div class="contenedor4">
+            <img src="https://boldentrance.com/wp-content/uploads/2020/08/everything-star-wars-borrowed-from-dune.jpg">
+            <H4 style="color:rgb(155, 10, 10);">Dato curioso</H4>
+            <p style="color:rgb(3, 3, 3);">La saga "Star Wars" esta fuertemente inspirada en la novela del año 1965 "Dune"</p>
+        </div>
+    </ASIDE>
+    <a href="#" class="fa fa-instagram"></a>
+    <FOOTER>Emilio López Córdova 4BM</FOOTER>
+  </body>
+</html>
